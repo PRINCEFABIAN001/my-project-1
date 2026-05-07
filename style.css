@@ -1,0 +1,97 @@
+/* style.css */
+body{
+   background-color: #000;
+   color: #000;
+    margin: 0;
+    font-family: arial,sans-serif;
+   text-align: center;
+}
+ header{
+    background: #888;
+    color: black;
+    padding: 20px;
+    text-align: center;
+ }
+ .logo {
+   width:120;
+ }
+   nav a {
+     background: #888 ;
+     display: flex;
+     justify-content: top left;
+   }
+   nav{
+   text-align: center;
+   }
+      nav a {
+      display: black;
+      color: white;
+      font-size: 30px;
+      margin: 15px 0;
+      padding: 10px;
+      text-decoration: none;
+   }
+   nav a :hover  {
+      background: #ff9800;
+   }
+     .hero {
+        background:
+      url('http://via. placeholder.com/1200x400')no-repeat center; 
+        background-size: cover;
+        color: white;
+        text-align: center;
+        padding: 100px 20px;
+     }
+     .section {
+        padding: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+        gap: 20px;
+     }
+     .menu-item {
+         border: #888;
+         padding: 20px;
+         border-radius: 10px;
+         inline-size: center;
+    }
+     .contact input, .contact textarea
+     {
+        width: 80%;
+        padding: 10px;
+        margin: 10px 0;
+     }
+     button{
+        padding: 10px 20px;
+        background: #ff9800;
+        border: none;
+        color: white;
+        cursor: pointer;
+     }
+     @media(max-width:768px){
+      nav {
+         display: flex;
+         flex-direction: column;;
+      }
+      .logo{
+         width: 80px;
+      }
+      h1{
+         font-size:22px;
+      } }
+     footer{
+        background: #111;
+        color: white;
+        text-align: center;
+        padding:c 15px;
+     }
+     .Owner-img{
+      width: 150px;
+      height: 150px;
+      border-radius: 50% ;
+      margin: 20px 0;
+   }
+   footer{
+      background: #888;
+      text-align: center;
+      padding: 30px;
+      color:#ffffff;
+   }

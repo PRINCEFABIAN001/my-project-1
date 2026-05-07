@@ -1,0 +1,11 @@
+< script>
+let slide=
+document.queryslectorAll('.slide');
+let idex=0;
+functiom changeslide() {
+slide[index].classlist.remove('active')
+index =(index + 1) % slide.lenght;
+slides[index].classlist.add('active');
+}
+  setinterver(changeslide, 3000);
+  </script>
